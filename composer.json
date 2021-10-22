@@ -1,0 +1,21 @@
+{
+    "name": "draw/aws-tool-kit-bundle",
+    "type": "symfony-bundle",
+    "keywords": ["symfony", "aws"],
+    "license": "MIT",
+    "description": "[BETA] This bundle offer a few AWS tool for symfony.",
+    "autoload": {
+        "psr-4": {
+            "Draw\\Bundle\\AwsToolKitBundle\\": ""
+        }
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.171",
+        "symfony/css-selector": "^4.4|^5.3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.8-dev"
+        }
+    }
+}
